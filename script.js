@@ -43,5 +43,6 @@ window.onload = () => {
     for(let beatKey in beats){
         let beat = beats[beatKey];
         let element = document.getElementById(beatKey);
+        element.style.borderColor = beat.color;
     }
   }
