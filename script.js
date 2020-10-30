@@ -18,4 +18,8 @@ window.onload = () => {
         beat: "./assets/Drum Sticks Hit 3.mp3",
         color:  "#db61d5"
       },
+      5: {
+        beat: "./assets/Drum Snare Roll.mp3",
+        color: " #db61d5"
+      },
 }
