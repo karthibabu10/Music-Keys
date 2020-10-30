@@ -59,5 +59,6 @@ window.onload = () => {
     const playBeat = (buttonKey) => {
 
         let audioSrc = beats[buttonKey].beat;
+        let audio = new Audio(audioSrc);
     
   }
