@@ -44,5 +44,8 @@ window.onload = () => {
         let beat = beats[beatKey];
         let element = document.getElementById(beatKey);
         element.style.borderColor = beat.color;
+        element.addEventListener("transitionend",  ()=>{
+            
+          })
     }
   }
