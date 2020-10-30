@@ -30,4 +30,8 @@ window.onload = () => {
         beat: "./assets/Cymbal Suspended 2.mp3",
         color: " #db61d5"
       },
+      8: {
+        beat: "./assets/Musical Compos 33.mp3",
+        color:  "#db61d5"
+      },
 }
