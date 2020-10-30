@@ -26,4 +26,8 @@ window.onload = () => {
         beat: "./assets/PREL Musical 57.mp3",
         color: " #db61d5"
       },
+      7: {
+        beat: "./assets/Cymbal Suspended 2.mp3",
+        color: " #db61d5"
+      },
 }
