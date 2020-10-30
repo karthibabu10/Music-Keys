@@ -49,10 +49,14 @@ window.onload = () => {
             element.style.boxShadow = "none";
           })
     }
+}
 
     const onButtonPress = (buttonKey) => {
         let element = document.getElementById(buttonKey);
         element.style.backgroundColor = beats[buttonKey].color;
         element.style.boxShadow = `0px 0px 12px 0px ${beats[buttonKey].color}`;
     }
+    const playBeat = (buttonKey) => {
+
+    
   }
