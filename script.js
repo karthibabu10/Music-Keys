@@ -51,5 +51,6 @@ window.onload = () => {
     }
 
     const onButtonPress = (buttonKey) => {
+        let element = document.getElementById(buttonKey);
     }
   }
