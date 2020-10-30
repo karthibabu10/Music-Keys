@@ -52,5 +52,6 @@ window.onload = () => {
 
     const onButtonPress = (buttonKey) => {
         let element = document.getElementById(buttonKey);
+        element.style.backgroundColor = beats[buttonKey].color;
     }
   }
