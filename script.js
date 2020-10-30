@@ -45,7 +45,7 @@ window.onload = () => {
         let element = document.getElementById(beatKey);
         element.style.borderColor = beat.color;
         element.addEventListener("transitionend",  ()=>{
-            
+            element.style.backgroundColor = "transparent";
           })
     }
   }
