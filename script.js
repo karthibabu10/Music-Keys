@@ -37,5 +37,10 @@ window.onload = () => {
       9: {
         beat: "./assets/Musical Orches 4.mp3",
         color: " #db61d5"
-      }
+      }     
 }
+    const setButtons = () => {  
+    for(let beatKey in beats){
+        let beat = beats[beatKey];
+    }
+  }
