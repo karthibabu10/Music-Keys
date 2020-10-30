@@ -46,6 +46,7 @@ window.onload = () => {
         element.style.borderColor = beat.color;
         element.addEventListener("transitionend",  ()=>{
             element.style.backgroundColor = "transparent";
+            element.style.boxShadow = "none";
           })
     }
   }
