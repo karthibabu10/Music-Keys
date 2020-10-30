@@ -49,4 +49,7 @@ window.onload = () => {
             element.style.boxShadow = "none";
           })
     }
+
+    const onButtonPress = (buttonKey) => {
+    }
   }
