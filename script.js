@@ -42,5 +42,6 @@ window.onload = () => {
     const setButtons = () => {  
     for(let beatKey in beats){
         let beat = beats[beatKey];
+        let element = document.getElementById(beatKey);
     }
   }
