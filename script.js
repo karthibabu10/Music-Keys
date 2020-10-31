@@ -65,5 +65,6 @@ window.onload = () => {
     
       }
       document.addEventListener('keydown', (event)=>{
-      
+        playBeat(event.key);
+        
       })
