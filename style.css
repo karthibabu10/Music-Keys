@@ -19,5 +19,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;
-  
+    justify-content: center;
+  }
+  .fullbody {
+    display: flex;
   }
