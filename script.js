@@ -61,5 +61,6 @@ window.onload = () => {
         let audioSrc = beats[buttonKey].beat;
         let audio = new Audio(audioSrc);
         audio.currentTime = 0;
+        audio.play();
     
   }
