@@ -63,4 +63,7 @@ window.onload = () => {
         audio.currentTime = 0;
         audio.play();
     
-  }
+      }
+      document.addEventListener('keydown', (event)=>{
+      
+      })
