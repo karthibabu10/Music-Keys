@@ -11,3 +11,6 @@ body {
     align-items: center;
     font-family: "Syne Tactile", cursive;
   }  
+  .beatbox {
+    width: 450px;
+  }
