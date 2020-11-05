@@ -29,3 +29,27 @@ body {
     justify-content: center;
     margin-top: 60px;
   }
+
+  .beat {
+    width: 150px;
+    height: 150px;
+    flex-basis: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid #db61d5;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: white;
+    transition: all 0.2s;
+  }
+  
